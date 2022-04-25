@@ -90,11 +90,12 @@ const Card = () => {
 
                 </div>
             </div>
-            {/** Pagination component */}
-            <div className='mx-auto container hidden md:block'>
-                <div class="flex items-center justify-center">
-                    <div className=" w-full  flex justify-center items-center space-x-7 ">
-                        <div className="flex  items-center pt-3 text-gray-600 dark:text-gray-200  cursor-pointer">
+
+            {/** Pagination component*/}
+            {/* <div className='mx-auto container hidden md:block'>
+                <div className="flex items-center justify-center">
+                    <div className=" w-full flex justify-center items-center space-x-7 ">
+                        <div className="flex items-center pt-3 text-gray-600 dark:text-gray-200  cursor-pointer">
                             <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.33398 1.66675L1.00065 5.00008L4.33398 8.33341" stroke="#525252" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -117,7 +118,7 @@ const Card = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
         </>
     )
