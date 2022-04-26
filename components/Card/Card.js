@@ -98,7 +98,7 @@ const Card = () => {
             </div>
 
             {/** Pagination component*/}
-            <div className='mx-auto container hidden md:block'>
+            {/* <div className='mx-auto container hidden md:block'>
                 <div className="flex items-center justify-center">
                     <div className=" w-full flex justify-center items-center space-x-7 ">
                         <div className="flex items-center pt-3 text-gray-600 dark:text-gray-200  cursor-pointer">
@@ -124,7 +124,7 @@ const Card = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
         </>
     )
