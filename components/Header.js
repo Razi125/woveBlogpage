@@ -3,8 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <div className='mx-auto container px-6 hidden md:block'>
-        <div className='flex justify-between items-center '>
+      <div className='mx-auto container px-4 hidden md:block'>
+        <div className='flex justify-between  items-center '>
           <div className='mt-16 '>
             <img  src='/images/wove-logo.svg' alt='' />
           </div>

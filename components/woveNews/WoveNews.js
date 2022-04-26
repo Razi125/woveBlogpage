@@ -3,7 +3,7 @@ import React from 'react'
 const WoveNews = () => {
   return (
     <div className='mx-auto container px-6 '>
-      <div className='flex justify-start items-center lg:pl-[7.5rem]'>
+      <div className='flex justify-start items-center 2xl:pl-[7.5rem]'>
         <div className='relative'>
           <img className='lg:w-[70%] lg:-mt-12  w-full' src='/images/bgImg.svg' alt='' />
         </div>

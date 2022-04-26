@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Router from 'next/router'
 const Card = () => {
 
     const data = [
         {
+            id: 1,
             url: '/images/pic1.svg',
             ava: '/images/profile1.svg',
             P1: 'Lincoln Westervelt',
@@ -12,6 +13,7 @@ const Card = () => {
             date: 'October 1, 2020',
         },
         {
+            id: 2,
             url: '/images/pic2.svg',
             ava: '/images/profile2.svg',
             P1: 'Hanna George',
@@ -20,6 +22,7 @@ const Card = () => {
             date: 'October 1, 2020',
         },
         {
+            id: 3,
             url: '/images/pic3.svg',
             ava: '/images/profile3.svg',
             P1: 'Tatiana Donin',
@@ -28,6 +31,7 @@ const Card = () => {
             date: 'October 1, 2020',
         },
         {
+            id: 4,
             url: '/images/pic4.svg',
             ava: '/images/profile4.svg',
             P1: 'Jaylon Botosh',
@@ -36,6 +40,7 @@ const Card = () => {
             date: 'October 1, 2020',
         },
         {
+            id: 5,
             url: '/images/pic5.svg',
             ava: '/images/profile5.svg',
             P1: 'Phillip Kenter',
@@ -44,6 +49,7 @@ const Card = () => {
             date: 'October 1, 2020',
         },
         {
+            id: 6,
             url: '/images/pic6.svg',
             ava: '/images/profile6.svg',
             P1: 'Adison Donin',
@@ -56,13 +62,13 @@ const Card = () => {
     return (
         <>
             <div className='mx-auto container px-6 mb-8'>
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 md:gap-6 lg:pl-[7.5rem]'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 md:gap-6 2xl:pl-[7.5rem] cursor-pointer '>
                     {
                         data?.map((item, index) => (
 
-                            <div key={index} className='bg-[#171717] rounded-2xl max-w-[403.33px] h-[529px] mb-8 '>
-                                <div className=' flex justify-center items-center pt-4 pb-4'>
-                                    <img className='w-[371.33px] h-[280px] rounded-lg' src={item.url} alt='' />
+                            <div key={index} className='bg-[#171717] rounded-2xl max-w-[403.33px] h-[529px] mb-8' onClick={() => Router.push(`/Details/${item.id}`)}>
+                                <div className=' flex justify-center items-center lg:pt-4 pb-4'>
+                                    <img className='w-[311px] md:w-[304px]  lg:w-[371.33px] h-[280px] rounded-lg' src={item.url} alt='' />
                                 </div>
                                 {/** Avatar */}
                                 <div className='flex pl-8 pb-4'>
@@ -92,7 +98,7 @@ const Card = () => {
             </div>
 
             {/** Pagination component*/}
-            {/* <div className='mx-auto container hidden md:block'>
+            <div className='mx-auto container hidden md:block'>
                 <div className="flex items-center justify-center">
                     <div className=" w-full flex justify-center items-center space-x-7 ">
                         <div className="flex items-center pt-3 text-gray-600 dark:text-gray-200  cursor-pointer">
@@ -118,7 +124,7 @@ const Card = () => {
                     </div>
                 </div>
 
-            </div> */}
+            </div>
 
         </>
     )

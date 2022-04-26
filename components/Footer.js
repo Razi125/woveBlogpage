@@ -3,9 +3,6 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className='mx-auto container max-w-[470px] xl:max-w-[730px] my-32 hidden md:block'>
-            <div style={{ border: '1px solid #FFFFFF' }}></div>
-            </div>
         
             <div className='mx-auto md:px-6 container'>
                 <div style={{ border: '1px solid #262626' }}></div>
