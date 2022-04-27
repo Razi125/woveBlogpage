@@ -164,6 +164,56 @@ a {
   padding-top: 40px;
   padding-bottom:16px;
 }
+.article .content > div > p{
+  max-width: 883px;
+  color: #D4D4D4;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'avenir';
+  letter-spacing: -0.01em;
+  padding-bottom: 24px;
+}
+
+/** Additional Reading*/
+.article .addRead {
+ background-color: #171717;
+ border-style: dashed;
+ border-width: 2px;
+ border-color: #0585F2;
+ margin-bottom: 60px;
+}
+.article .addRead > div > h1{
+  max-width: 835px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'montserrat';
+  letter-spacing: -0.02em;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.article .addRead > div > p{
+  max-width: 835px;
+  color: #D4D4D4;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'avenir';
+  padding-bottom: 24px;
+  padding-left: 24px;
+}
+.article .addRead > div > p > span{
+  color:#0585F2 ;
+  cursor: pointer;
+}
+
 
 
 
