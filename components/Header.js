@@ -5,14 +5,14 @@ const Header = () => {
     <>
       <div className='mx-auto container px-4 hidden md:block'>
         <div className='flex justify-between  items-center '>
-          <div className='mt-16 '>
+          <div className='mt-16 cursor-pointer '>
             <img  src='/images/wove-logo.svg' alt='' />
           </div>
           <div className='flex space-x-[36px] mt-16'>
-            <p className='max-w-[49px] text-[#FFFFFF] text-base leading-4 not-italic font-normal avenir'>
+            <p className='max-w-[49px] text-[#FFFFFF] text-base leading-4 not-italic font-normal hover:font-extrabold avenir cursor-pointer'>
               Pricing
             </p>
-            <p className='max-w-[49px] text-[#FFFFFF] text-base leading-4 not-italic font-extrabold avenir'>
+            <p className='max-w-[49px] text-[#FFFFFF] text-base leading-4 not-italic font-normal hover:font-extrabold avenir cursor-pointer'>
               Blog
             </p>
           </div>

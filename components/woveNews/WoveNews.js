@@ -16,7 +16,6 @@ const WoveNews = () => {
           <p className='lg:max-w-[843px] md:max-w-[606px] max-w-[343px] md:text-[#D4D4D4] text-[#A3A3A3] text-sm md:text-lg leading-[150%] font-normal not-italic avenir pb-12 md:pb-0'>Whether remote, in-office, or hybrid, modern teams rely on SaaS tools to get work done. Wove glues all of these tools together to become your center of gravity. The apps you already use, accessible and visible in one place. Host meetings, track progress, and organize your tools in Wove.</p>
         </div>
       </div>
-
     </div>
   )
 }

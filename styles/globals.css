@@ -58,4 +58,116 @@ a {
   font-family: "Avenir";
 }
 
+.article > h1 {
+  max-width: 842px;
+  color:#FFFFFF;
+  font-size: 48px;
+  letter-spacing:-0.01em;
+  line-height: 135%;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Montserrat";
+}
+.article > h1 > span{
+  font-size: 48px;
+  background: -webkit-linear-gradient(#A1FCE8, #0585F2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.article .tab {
+  display: flex;
+  justify-content: start;
+  justify-items: start;
+  padding-bottom: 36px;
+}
+.article .tab > p{
+  color: #A3A3A3;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "avenir";
+  margin-left: 10px;
+}
+.article .tab > p:hover{
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.article .tab img{
+  margin-left: 10px;
+}
+.article > div > h5{
+  color: #D4D4D4;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Montserrat";
+  padding-bottom: 12px;
+}
+
+/** Avatar Part */
+.article .avatar {
+  display: flex;
+  justify-content: start;
+  justify-items: start;
+  padding-top: 32px;
+  padding-bottom: 80px;
+  cursor: pointer;
+}
+
+.article .avatar > div > h1{
+  max-width: 287.33px;
+  color: #D4D4D4;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Montserrat";
+  padding-left: 12px;
+}
+.article .avatar > div > p{
+  max-width: 287.33px;
+  color: #A3A3A3;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "avenir";
+  padding-left: 12px;
+}
+
+/** Full Content*/
+.article .content {
+   display: flex;
+   flex-direction: column;
+}
+.article .content > div{
+  width: 100%;
+  cursor: pointer;
+}
+.article .content > div > img{
+ max-width: 883px;
+ border-radius: 8px;
+}
+.article .content > div > h1{
+  max-width: 883px;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Montserrat';
+  letter-spacing: -0.02em;
+  padding-top: 40px;
+  padding-bottom:16px;
+}
+
+
+
+
+
+ 
 
