@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
         
-            <div className='mx-auto md:px-6 container'>
+            <div className='mx-auto md:px-6 container mt-12'>
                 <div style={{ border: '1px solid #262626' }}></div>
                 <div className='flex flex-col md:flex-row justify-between items-center mt-6 mb-6 xl:mt-8 xl:mb-8 '>
                     <div className=' mb-[25.35px] md:mb-0 md:py-0 cursor-pointer'>

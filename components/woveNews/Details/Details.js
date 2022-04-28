@@ -46,7 +46,6 @@ const Details = () => {
          <div>
             <p>While the HRIS features benefit the organization in many ways, one of the most important of all HRIS benefits relates to the ability of the so”ware program to improve the productivity of human resources employees. These HR systems are highly detailed, and they are designed to enhance and speed up the efforts of HR employees in a number of ways. For example, they can assist with recruitment by simplifying the process of collecting resumes, reviewing candidate information and more.While the HRIS features benefit the organization in many ways, one of the most important of all HRIS benefits relates to the ability of the so”ware program to improve the productivity of human resources employees. These HR systems are highly detailed, and they are designed to enhance and speed up the efforts of HR employees in a number of ways. For example, they can assist with recruitment by simplifying the process of collecting resumes, reviewing candidate information and more.</p>
             <br/>
-            <br/>
             <p>While the HRIS features benefit the organization in many ways, one of the most important of all HRIS benefits relates to the ability of the so”ware program to improve the productivity of human resources employees. These HR systems are highly detailed, and they are designed to enhance and speed up the efforts of HR employees in a number of ways. For example, they can assist with recruitment by simplifying the process of collecting resumes, reviewing candidate information and more.While the HRIS features benefit the organization in many ways, one of the most important of all HRIS benefits relates to the ability of the so”ware program to improve the productivity of human resources employees. These HR systems are highly detailed, and they are designed to enhance and speed up the efforts of HR employees in a number of ways. For example, they can assist with recruitment by simplifying the process of collecting resumes, reviewing candidate information and more.</p>
          </div>
           
@@ -59,20 +58,20 @@ const Details = () => {
                 <p>For more details on lead generation, read our detailed guide on <span>lead generation</span>, where we dicuss the entire lead gen topic, including outbound strategies and how to qualify leads for nurturing.</p>
             </div>
         </div>
+
+        {/**title*/}
+        <div class='content'>
+        <div>
+            <h1>Reducing Errors and Maintaining Compliance</h1>
+        </div>
+        </div>
+
          {/**paraghraph*/}
         <div class='content'>
         <div>
             <p >Many HR tasks are highly regulated, and because of this, even a minor error on the part of a human resources employee could result in considerable legal issues and even financial loss for the company. For example, when resumes are not reviewed in a fair and just manner during the hiring process, a lawsuit may ensue. A HRIS can provide guidance to avoid these types of issues before they escalate.</p>
             <br/>
-            <br/>
             <p >When considering HRIS benefits for your organization, the ability to reduce issues and other related errors associated with human oversight or other factors can be considerable. Furthermore, additional HRIS benefits relate to compliance issues. Some so”ware programs are designed to review compliance with specific rules and regulations—this makes it easier to ensure that your company is in compliance with these laws and regulations. Ultimately, this can improve company reputation and help to avoid penalties.</p>
-        </div>
-        </div>
-         
-        {/**title*/}
-        <div class='content'>
-        <div>
-            <h1>Reducing Errors and Maintaining Compliance</h1>
         </div>
         </div>
 
@@ -95,6 +94,7 @@ const Details = () => {
             <p>HRIS analytical tools give HR employees the ability to perform many pertinent calculations with speed. Employees can collect the data needed within a short period of time and then analyze all of the data in a concise and effective manner. Some software programs are designed to create professional reports on metrics and analysis that can help HR professionals to spot issues at a glance.</p>
             <br/>
             <p>Companies can immediately enjoy many HRIS benefits once the human resources information system has been implemented. There are several different types of HRIS systems available for purchase, and each may offer different features and functions. Companies should carefully review the different systems, vendors, and features available in order to find the right program for their needs and budget.</p>
+            <p>“We define human resource information systems (HRIS), how they work, and why they are used in different types of organizations and businesses.”</p>
          </div>
 
          {/** Social Media */}
@@ -187,7 +187,6 @@ const Details = () => {
     <>
     {/**Websit Traffic Div */}
     <div className='mx-auto container px-80 mt-[180px]'>
-
         <div className='flex flex-col justify-start items-start '>
          {/** BackgroundImage with text */}
          <div className='flex flex-col justify-start items-start '>
@@ -199,8 +198,7 @@ const Details = () => {
         </div>
       </div>
 
-      {/** ParhaGraph Detail */}
-      <div className='flex flex-col'> 
+      <div className='flex flex-col w-full'> 
         {/** Social Media */}
         <div className='bg-cover bg-center rounded-[6px] bg-bgunsplash bg-no-repeat w-full h-[17rem] mt-16 mb-28'>
             <div>
@@ -217,7 +215,6 @@ const Details = () => {
                         </div>
                     ))
                 }
-                
             </div>
         </div>
 

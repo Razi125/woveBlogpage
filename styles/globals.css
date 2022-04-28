@@ -80,6 +80,7 @@ a {
   justify-content: start;
   justify-items: start;
   padding-bottom: 36px;
+  -ms-text-kashida-space: 40px;
 }
 .article .tab > p{
   color: #A3A3A3;
@@ -88,7 +89,6 @@ a {
   font-weight: 500;
   font-style: normal;
   font-family: "avenir";
-  margin-left: 10px;
 }
 .article .tab > p:hover{
   cursor: pointer;
@@ -97,6 +97,7 @@ a {
 }
 .article .tab img{
   margin-left: 10px;
+  margin-right: 10px;
 }
 .article > div > h5{
   color: #D4D4D4;
@@ -114,7 +115,7 @@ a {
   justify-content: start;
   justify-items: start;
   padding-top: 32px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   cursor: pointer;
 }
 
@@ -146,11 +147,11 @@ a {
 }
 .article .content > div{
   width: 100%;
-  cursor: pointer;
 }
 .article .content > div > img{
  max-width: 883px;
  border-radius: 8px;
+ cursor: pointer;
 }
 .article .content > div > h1{
   max-width: 883px;
@@ -161,7 +162,7 @@ a {
   font-style: normal;
   font-family: 'Montserrat';
   letter-spacing: -0.02em;
-  padding-top: 40px;
+  padding-top: 48px;
   padding-bottom:16px;
 }
 .article .content > div > p{
@@ -182,7 +183,6 @@ a {
  border-style: dashed;
  border-width: 2px;
  border-color: #0585F2;
- margin-bottom: 60px;
 }
 .article .addRead > div > h1{
   max-width: 835px;
